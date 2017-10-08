@@ -3,6 +3,7 @@
  */
 public class C1_8 {
 
+
     public static boolean isSubstring(String s1, String s2){
         if(s1.length()<s2.length()) return false;
         if(s1.length()==s2.length()) return s1.equals(s2);
